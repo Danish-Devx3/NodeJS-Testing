@@ -25,7 +25,7 @@ app.post("/sum", async (req, res) => {
         data: {
             a: parsedResponse.data.a,
             b: parsedResponse.data.b,
-            result: 5
+            result: answer
         }
     })
 
